@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.vbproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.Form1.resources
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.Resources.resources
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.vbproj.GenerateResource.cache
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Cryptography\visual\bin\Debug\visual.exe.config
+C:\Users\HP\Desktop\Cryptography\visual\bin\Debug\visual.exe
+C:\Users\HP\Desktop\Cryptography\visual\bin\Debug\visual.pdb
+C:\Users\HP\Desktop\Cryptography\visual\bin\Debug\visual.xml
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.exe
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.xml
+C:\Users\HP\Desktop\Cryptography\visual\obj\Debug\visual.pdb

@@ -1,0 +1,11 @@
+﻿Public Class HomeControl
+
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+
+        Dim frm As Form1 = CType(Me.FindForm(), Form1)
+
+        frm.ShowControl(New dashboardControl())
+
+    End Sub
+
+End Class

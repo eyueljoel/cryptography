@@ -1,0 +1,87 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class settingControl
+    Inherits System.Windows.Forms.UserControl
+
+    'UserControl overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Label1 = New Label()
+        Button1 = New Button()
+        Button2 = New Button()
+        Button3 = New Button()
+        SuspendLayout()
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 16.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(22, 18)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(209, 45)
+        Label1.TabIndex = 1
+        Label1.Text = "Setting Page"
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(19, 98)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(133, 33)
+        Button1.TabIndex = 2
+        Button1.Text = "Checkbox"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(20, 156)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(132, 31)
+        Button2.TabIndex = 3
+        Button2.Text = "Theme Button"
+        Button2.UseVisualStyleBackColor = True
+        ' 
+        ' Button3
+        ' 
+        Button3.Location = New Point(22, 212)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(135, 36)
+        Button3.TabIndex = 4
+        Button3.Text = "About Label"
+        Button3.UseVisualStyleBackColor = True
+        ' 
+        ' setttingControl
+        ' 
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
+        AutoScaleMode = AutoScaleMode.Font
+        Controls.Add(Button3)
+        Controls.Add(Button2)
+        Controls.Add(Button1)
+        Controls.Add(Label1)
+        Name = "setttingControl"
+        Size = New Size(723, 406)
+        ResumeLayout(False)
+        PerformLayout()
+    End Sub
+
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+
+End Class

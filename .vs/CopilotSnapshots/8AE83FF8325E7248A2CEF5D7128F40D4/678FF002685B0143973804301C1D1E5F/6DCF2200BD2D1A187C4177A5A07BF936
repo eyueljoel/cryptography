@@ -1,0 +1,57 @@
+﻿Public Class Form1
+
+    ' =========================
+    ' FORM LOAD
+    ' =========================
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Show Home screen first
+        ShowControl(New Homecontrol())
+    End Sub
+
+    ' =========================
+    ' CORE NAVIGATION FUNCTION
+    ' =========================
+    Private Sub ShowControl(ctrl As UserControl)
+
+        PnlMain.Controls.Clear()
+
+        ctrl.Dock = DockStyle.Fill
+
+        PnlMain.Controls.Add(ctrl)
+
+        ctrl.BringToFront()
+
+    End Sub
+
+    ' =========================
+    ' START BUTTON (from Home)
+    ' =========================
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+        ShowControl(New dashboardControl())
+    End Sub
+
+    ' =========================
+    ' NAVIGATION BUTTONS
+    ' =========================
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        ShowControl(New Homecontrol())
+    End Sub
+
+    Private Sub btnDashboard_Click(sender As Object, e As EventArgs) Handles btnDashboard.Click
+        ShowControl(New dashboardControl())
+    End Sub
+
+    Private Sub btnEncrypt_Click(sender As Object, e As EventArgs) Handles btnEncrypt.Click
+        ShowControl(New EncryptControl())
+    End Sub
+
+    Private Sub btnDecrypt_Click(sender As Object, e As EventArgs) Handles btnDecrypt.Click
+        ShowControl(New decryptControl())
+    End Sub
+
+    Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
+        ShowControl(New SettingsControl())
+    End Sub
+
+End Class

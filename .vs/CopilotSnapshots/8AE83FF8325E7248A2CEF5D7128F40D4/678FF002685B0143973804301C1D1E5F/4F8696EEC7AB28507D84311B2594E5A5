@@ -1,0 +1,27 @@
+﻿Public Class DashboardControl
+
+    Private Sub btnEncrypt_Click(sender As Object, e As EventArgs) Handles btnEncrypt.Click
+
+        Dim frm As Form1 = CType(Me.FindForm(), Form1)
+
+        frm.ShowControl(New EncryptControl())
+
+    End Sub
+
+    Private Sub btnDecrypt_Click(sender As Object, e As EventArgs) Handles btnDecrypt.Click
+
+        Dim frm As Form1 = CType(Me.FindForm(), Form1)
+
+        frm.ShowControl(New decryptControl())
+
+    End Sub
+
+    Private Sub btnSetting_Click(sender As Object, e As EventArgs) Handles btnSetting.Click
+
+        Dim frm As Form1 = CType(Me.FindForm(), Form1)
+
+        frm.ShowControl(New settingControl())
+
+    End Sub
+
+End Class
